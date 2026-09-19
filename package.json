@@ -1,0 +1,29 @@
+{
+  "name": "catalogo-ecommerce",
+  "version": "1.0.0",
+  "description": "API RESTful para catálogo de produtos de e-commerce com Node.js, Express e MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "mvc",
+    "crud",
+    "e-commerce"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.1"
+  }
+}
